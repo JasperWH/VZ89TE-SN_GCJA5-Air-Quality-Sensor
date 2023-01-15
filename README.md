@@ -30,7 +30,7 @@ Position the monitors over 50cm away from people as their exhaled breath contain
 # Implementation:
 ## Hardware:
 - MICS-VZ-89TE VOC Sensor IAQ Module
-- SN-GCJA5 Sensor Particle Matter
+- SN-GCJA5 Sensor Particle Matter (with connector cable)
 - STM32F407G-DISC1 Discovery Board
 
 ### Setup:
