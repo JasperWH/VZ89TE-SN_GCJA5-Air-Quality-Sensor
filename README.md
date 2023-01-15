@@ -20,8 +20,8 @@ note CO2 measurements are only a broad guide to ventilation rather than demonstr
 - 35+ μg/m3 Shart term acceptable level however during a 24-hour period air is considered unhealthy and can cause issues for people with existing breathing issues such as asthma
 - 50+ μg/m3 Prolonged exposure to levels above can lead to serious health issues and premature mortality
 
-## Placement:
-Locate the monitor at head height and keep them away from [1]:
+## Placement [1]:
+Locate the monitor at head height and keep them away from:
 - windows
 - doors
 - air supply openings
