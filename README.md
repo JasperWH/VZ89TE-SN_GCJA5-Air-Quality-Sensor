@@ -32,6 +32,14 @@ Position the monitors over 50cm away from people as their exhaled breath contain
 - MICS-VZ-89TE VOC Sensor IAQ Module
 - SN-GCJA5 Sensor Particle Matter (with connector cable)
 - STM32F407G-DISC1 Discovery Board
+- 2x 4k7 resistors
+- 10x LEDS
+- 10x 100 ohm resistors
+- USB PCB board
+- 5v USB power supply
+- Case
+- Jumper wires
+- Pin Headers
 
 ### Setup:
 Update in progress
