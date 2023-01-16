@@ -42,13 +42,13 @@ Position the monitors over 50cm away from people as their exhaled breath contain
 - Pin Headers
 
 ### Setup:
-Update in progress
+![Circuit Design](https://github.com/JasperWH/VZ89TE-SN_GCJA5-Air-Quality-Sensor/blob/main/Pictures/Air_quality_Sensor_Circuit_Diagram.PNG)
 
 ## Software:
 - STMCubeIDE
 
 ### Setup:
-![This is an image](https://github.com/JasperWH/VZ89TE-SN_GCJA5-Air-Quality-Sensor/blob/main/Pictures/Air_quality_Sensor_STM32_setup.PNG)
+![STM32Cube setup](https://github.com/JasperWH/VZ89TE-SN_GCJA5-Air-Quality-Sensor/blob/main/Pictures/Air_quality_Sensor_STM32_setup.PNG)
 
 ## References:
 - [1] https://www.energy.wsu.edu/documents/co2inbuildings.pdf
