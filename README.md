@@ -54,7 +54,16 @@ This project draws more that 200mA just thruogh the LEDs so for any long term us
 ![STM32Cube setup](https://github.com/JasperWH/VZ89TE-SN_GCJA5-Air-Quality-Sensor/blob/main/Pictures/Air_quality_Sensor_STM32_setup.PNG)
 
 ### Code:
-This programme has been written in C, no external libraries need to be downaload to run this application
+This programme has been written in C, no external libraries need to be downaload to run this application. If you wish to use printf while getting it running you'll need to copy the contents of syscalls.c into your file of the same name. You will also need to change the clock speed when debugging to 25kHz
+
+The C02 and Particulate matter (PM) LED indication level draws from the values above:
+| Level  | PM (μg/m3) | C02 (ppm) |
+| Green  | 10         | 400       |
+| Blue   | 20         | 650       |
+| Orange | 30         | 900       |
+| Orange | 40         | 1150      |
+| Red    | 50         | 1400      |
+
 
 ## References:
 - [1] https://www.energy.wsu.edu/documents/co2inbuildings.pdf
