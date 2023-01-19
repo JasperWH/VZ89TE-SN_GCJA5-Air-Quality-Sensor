@@ -58,6 +58,7 @@ This programme has been written in C, no external libraries need to be downaload
 
 The C02 and Particulate matter (PM) LED indication level draws from the values above:
 | Level  | PM (μg/m3) | C02 (ppm) |
+| ------ | ---------- | --------- |
 | Green  | 10         | 400       |
 | Blue   | 20         | 650       |
 | Orange | 30         | 900       |
