@@ -1,7 +1,7 @@
 # Background
 
 ## The Reason For This Project:
-Most commercial indoor air quality (IAQ) sensors are designed for the office environment. They can be costly to purchase and install often requiring multiple expensive sensor to monitor the level of pollutants in the air, such as carbon monoxide, carbon dioxide, volatile organic compounds (VOCs), and particulate matter.
+Most commercial indoor air quality (IAQ) sensors are designed for the office environment. They can be costly to purchase and install, and often requiring multiple expensive sensor to monitor the level of pollutants in the air, such as carbon monoxide, carbon dioxide, volatile organic compounds (VOCs), and particulate matter.
 
 This project aims to exploit a gap in the market as a scaled back cheaper option for a company to role out to their employees working form home, as according to the Governments Health and Safety Executive [1]:
 >As an employer, you have the same health and safety responsibilities for people working at home as for any other worker.
