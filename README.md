@@ -74,7 +74,7 @@ The C02 and Particulate matter (PM) LED indication level draws from the values a
 | Orange | 40         | 1150      |
 | Red    | 50         | 1400      |
 
-# Communication:
+# I2C Communication:
 I2C (Inter-Integrated Circuit) is a serial communication protocol that is used to connect multiple devices together in a system. I2C uses two wires to establish communication between devices: a data line (SDA) and a clock line (SCL). The master device controls the clock line and initiates communication with the slave devices. Each slave device on the bus has a unique address, and the master device uses this address to communicate with the desired slave device.
 
 One of the key features of I2C is that it is a multi-master bus, which means that multiple devices can act as masters on the bus and initiate communication with slave devices. This allows for a flexible system design and enables multiple devices to communicate with each other simultaneously.
