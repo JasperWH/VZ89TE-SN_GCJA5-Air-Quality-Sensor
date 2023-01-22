@@ -1,6 +1,6 @@
 # Background
 
-## Reason for projct:
+## The Reason For This Project:
 Most comercial indoor air quality (IAQ) sensors are designed for the office environemnt. They can be costly to purchase and install often requiring multiple expensive sensor to monitor the level of pollutants in the air, such as carbon monoxide, carbon dioxide, volatile organic compounds (VOCs), and particulate matter.
 
 This project aims to expolit a gap in the market as a sacled back cheaper option for a company to role out to their employees working form home, as accoring to the Governments Health and Saefty Execuative [x]:
@@ -75,8 +75,14 @@ The C02 and Particulate matter (PM) LED indication level draws from the values a
 | Red    | 50         | 1400      |
 
 # Comunication:
+I2C (Inter-Integrated Circuit) is a serial communication protocol that is used to connect multiple devices together in a system. I2C uses two wires to establish communication between devices: a data line (SDA) and a clock line (SCL). The master device controls the clock line and initiates communication with the slave devices. Each slave device on the bus has a unique address, and the master device uses this address to communicate with the desired slave device.
 
+One of the key features of I2C is that it is a multi-master bus, which means that multiple devices can act as masters on the bus and initiate communication with slave devices. This allows for a flexible system design and enables multiple devices to communicate with each other simultaneously.
 
+I2C is widely used in embedded systems, industrial control systems and consumer electronics. It is widely supported by microcontrollers and other integrated circuits, and it is often used to interface with sensors, displays, and other peripherals. I2C is a relatively simple and low-cost communication protocol, which makes it well-suited for use in small and portable devices.
+
+## Implimentation:
+Please refer to the sensor communitcatons manuals to get the required slave adress' and data registers for your application. 
 
 ## References:
 - [x] https://www.hse.gov.uk/home-working/employer/index.htm
