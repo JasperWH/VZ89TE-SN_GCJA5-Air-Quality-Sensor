@@ -29,7 +29,7 @@ This is a mixture of solid and liquid particles that are suspended in the air. T
 - 50+ μg/m3 Prolonged exposure to levels above can lead to serious health issues and premature mortality
 
 ## Placement [5]:
-Locate the monitor at head height and keep them away from:
+Locate the monitor at head height and keep it away from:
 - windows
 - doors
 - air supply openings
