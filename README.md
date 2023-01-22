@@ -46,7 +46,7 @@ Position the monitors over 50cm away from people as their exhaled breath contain
 The user manual recomends:
 >The 5V and 3V pins deliver a 5 V or 3 V power supply and power consumption must be lower than 100 mA.
 
-This project draws more that 200mA just thruogh the LEDs so for any long term use it is recommened to use a transistor can act as a digital switch and run everythnig straight from a 5v and 3.3v power supply.
+This project draws more that 200mA just thruogh the LEDs, so for any long term use it is recommened to use a transistor to act as a digital switch and run everything straight from a 5v and 3.3v power supply.
 
 ## Software:
 - STMCubeIDE
