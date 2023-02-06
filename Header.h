@@ -4,17 +4,11 @@
 
 	    HAL_StatusTypeDef ret; // ret will give HAL_OK or HALL_ERROR if i2c fails
 
-	    ret = HAL_I2C_Mem_Write(hi2c, slave_address, 0, 0, val, 1, 50);
-		if(ret != HAL_OK)
-			return ret;
+	    ret = HAL_I2C_Mem_Read(hi2c, (slave_address|0x01), mem_address, 1, val, byte, 50);
+	    if(ret != HAL_OK)
+	    	return ret;
 
-		HAL_Delay(500);
-
-		ret = HAL_I2C_Mem_Read(hi2c, (slave_address|0x01), mem_address, 1, val, byte, 50);
-		if(ret != HAL_OK)
-			return ret;
-
-		return HAL_OK;
+	    return HAL_OK;
   }
 
   void visualiser(uint32_t val, uint16_t level[5], GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin1, uint16_t GPIO_Pin2, uint16_t GPIO_Pin3, uint16_t GPIO_Pin4, uint16_t GPIO_Pin5 ){
