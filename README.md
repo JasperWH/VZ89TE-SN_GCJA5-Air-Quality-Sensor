@@ -74,6 +74,9 @@ The C02 and Particulate matter (PM) LED indication level draws from the values a
 | Orange | 40         | 1150      |
 | Red    | 50         | 1400      |
 
+#### NO_HAL:
+The folder 'NO_HAL' has been included to demonstrate using registers to configure the STM32 to send and receive I2C, as opposed to the Hardware Abstraction Layer (HAL) functions. This was to investigate the implementation using lower level aspects of the MCU and peripherals. 
+
 # I2C Communication:
 I2C (Inter-Integrated Circuit) is a serial communication protocol that is used to connect multiple devices together in a system. I2C uses two wires to establish communication between devices: a data line (SDA) and a clock line (SCL). The master device controls the clock line and initiates communication with the slave devices. Each slave device on the bus has a unique address, and the master device uses this address to communicate with the desired slave device.
 
